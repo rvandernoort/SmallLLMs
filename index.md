@@ -4,3 +4,12 @@
 
 layout: home
 ---
+
+# Small LLMs list
+
+
+| **Link** | **Citation** |  |   |   |
+|----------|---|---|---|---|
+| test     |   |   |   |   |
+|          |   |   |   |   |
+|          |   |   |   |   |
