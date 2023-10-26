@@ -60,7 +60,7 @@ This list curates small Large Language Models (LLMs) that could be deployed to e
 | [OpenLLaMa](https://github.com/openlm-research/open_llama) | [^5^] | 2023 | LLaMa | 3-13B | [EasyLM](https://github.com/young-geng/EasyLM) | 3GB-? | tbd | Reproduction of Meta's LLaMa |
 | [ExLlama](https://github.com/turboderp/exllama) | | 2023 | LLaMa | 7-33B | 4-bit GPTQ | 3-21GB | tbd | Fast and memory-efficient on modern GPUs |
 | [ExLlamav2](https://github.com/turboderp/exllamav2) | | 2023 | LLaMa 2 |  1.1-34B | 2.5-5 bit quan. | tbd | tbd | Running local LLMs on modern consumer GPUs |
-| [TinyLLaMa](https://github.com/jzhang38/TinyLlama) | [^6^] | 2023 | LLaMa 2 | 1.1B |  4 bit quan. | None | tbd | use case on edge device |
+| [TinyLLaMa](https://github.com/jzhang38/TinyLlama) | [^6^] | 2023 | LLaMa 2 | 1.1B |  [4 bit quan.](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF) | None | tbd | use case on edge device |
 | [MiniLLM](https://github.com/kuleshov/minillm) | | 2023 | LLaMa, BLOOM, OPT | 7B-65B | 4 bit quan. | 6-40GB | Available | Meant to run on consumer-grade GPUs |
 | [GPTQ4LLaMa](https://github.com/qwopqwop200/GPTQ-for-LLaMa) | | 2023 | LLaMa | 7B-33B | 4-bit quan. | None | tbd | semi-archived, followed by AutoGPTQ |
 | [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) | [^7^8^] | 2023 | LLaMa 2, Vicuna V0 | 7B, 7-13B | 8-bit quan | 11.5-23GB | tbd | LLama-2 with GPT-4 combination, but requires GPU |
