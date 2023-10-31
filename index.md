@@ -76,16 +76,14 @@ This list curates small Large Language Models (LLMs) that could be deployed to e
 | [DallE Mini](https://github.com/borisdayma/dalle-mini) | | 2022 | - | - | - | - | - | - |
 | **Other resources** | - | - | - | - | - | - |
 | [Edge-MoE](https://github.com/sharc-lab/Edge-MoE) | [^12^] | 2023 | - | - | - | - | - | Mixture-of-Experts for general Transformers and video |
-| [GPTQ](https://github.com/IST-DASLab/gptq) | [^13^] | 2022 | LLaMa, OPT, BLOOM | 7B-65B | tbd | tbd | tbd | Post-training quantization for pre-trained transformers |
 | [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) | | 2023 | LLaMa, Moss-Moon, GPT-j | rsp. 7B, 16B, 6B | tbd | tbd | tbd | Work towards v1 |
 | [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) | [^14^15^] | 2022 | - | - | 8 bit quan. | - | - | wrapper for CUDA quantization |
 | [MLC LLM](https://github.com/mlc-ai/mlc-llm) | [^16^] | 2023 | - | - | - | - | - | Machine Learning Compilation for LLMs |
-| [LLaMa C++](https://github.com/ggerganov/llama.cpp/) | | - | - | - | - | - | - | Inference written in C++ |
 | [MCUnet](https://github.com/mit-han-lab/mcunet) | [^17^] | 2020 | - | 0.75M-1.73M | - | - | - | |
 
 </div>
 
-- \* Optimzation technique: Quantization (GPTQ) , Knowledge Distilation (KD), Sliding Window Attention (SWA)
+- \* Optimzation technique: Quantization ([AWQ](https://github.com/mit-han-lab/llm-awq), [GPTQ](https://github.com/IST-DASLab/gptq), [GGUF llama.cpp](https://github.com/ggerganov/llama.cpp/) , Knowledge Distilation (KD), Sliding Window Attention (SWA)
 - \*\* GPU Requirements for **inference**, tested on VRAM and compatible types
 - \*\*\* Reproducability, tested on a consumer grade GPU and edge 
 
