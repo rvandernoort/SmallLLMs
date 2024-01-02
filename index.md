@@ -64,6 +64,7 @@ This list curates small Large Language Models (LLMs) that could be deployed to e
 | [MiniLLM](https://github.com/kuleshov/minillm) | | 2023 | LLaMa, BLOOM, OPT | 7B-65B | 4 bit quan. | 6-40GB | Available | Meant to run on consumer-grade GPUs |
 | [GPTQ4LLaMa](https://github.com/qwopqwop200/GPTQ-for-LLaMa) | | 2023 | LLaMa | 7B-33B | 4-bit quan. | None | tbd | semi-archived, followed by AutoGPTQ |
 | [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) | [^7^8^] | 2023 | LLaMa 2, Vicuna V0 | 7B, 7-13B | 8-bit quan | 11.5-23GB | tbd | LLama-2 with GPT-4 combination, but requires GPU |
+| [TinyGPT-V](https://github.com/DLYuanGod/TinyGPT-V) | - | - | - | - | - | - |
 | [Mystral AI](https://github.com/mistralai/mistral-src) |[^9^] | 2023 | Mystral | 7B | SWA | tbd | tbd | Better than LLaMa 2 13B |
 | [GGML LLaMa 2](https://huggingface.co/EDGE-AI/EDGE_0-7B_GGML) | | 2023 | LLaMa 2 | 7-70B | 2-8 bit quan. | 2-10GB RAM | - | Meta's Llama 2 7B GGML run with llama.cpp |
 | [EdgeLM](https://github.com/microsoft/unilm/tree/master/edgelm) | [^9^] | 2022 | None | 9.4M | tbd | Unknown | No | Pre-trained model is unavailable, issue pending |
@@ -74,13 +75,16 @@ This list curates small Large Language Models (LLMs) that could be deployed to e
 | [EasyLM](https://github.com/young-geng/EasyLM/tree/main) | | - | LLaMa, GPT-J, RoBERTa | 7-65B | tbd | tbd | tbd | Jax/Flax implementation |
 | **Other models** | - | - | - | - | - | - |
 | [DallE Mini](https://github.com/borisdayma/dalle-mini) | | 2022 | - | - | - | - | - | - |
+| **Edge Inference frameworks** | - | - | - | - | - | - |
+| [llama.cpp](https://github.com/ggerganov/llama.cpp/) | - | - | - | - | - | - |
+| [nitro](https://github.com/janhq/nitro) | - | - | - | - | - | production ready implementation of llama.cpp |
+| [jan](https://github.com/janhq/jan) | - | - | - | - | - | GUI for chat with nitro under the hood |
 | **Other resources** | - | - | - | - | - | - |
 | [Edge-MoE](https://github.com/sharc-lab/Edge-MoE) | [^12^] | 2023 | - | - | - | - | - | Mixture-of-Experts for general Transformers and video |
 | [AutoGPTQ](https://github.com/PanQiWei/AutoGPTQ) | | 2023 | LLaMa, Moss-Moon, GPT-j | rsp. 7B, 16B, 6B | tbd | tbd | tbd | Work towards v1 |
 | [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) | [^14^15^] | 2022 | - | - | 8 bit quan. | - | - | wrapper for CUDA quantization |
 | [MLC LLM](https://github.com/mlc-ai/mlc-llm) | [^16^] | 2023 | - | - | - | - | - | Machine Learning Compilation for LLMs |
 | [MCUnet](https://github.com/mit-han-lab/mcunet) | [^17^] | 2020 | - | 0.75M-1.73M | - | - | - | |
-
 </div>
 
 - \* Optimzation technique: Quantization ([AWQ](https://github.com/mit-han-lab/llm-awq), [GPTQ](https://github.com/IST-DASLab/gptq), [GGUF llama.cpp](https://github.com/ggerganov/llama.cpp/) , Knowledge Distilation (KD), Sliding Window Attention (SWA)
