@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This collection is made as part of a research into the Sustainability of Edge AI at scale. Increasingly more research has been published with new techniques for SLMs and new types of models are being created. Edge AI is an important architectural deployment strategy that has some nice benefits, such as reduction of cloud costs and increased privacy and data sovereignty, however, it does lack computational abilities. Since LLMs do not fit on these limited devices, SLMs can provide an alternative. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This research has been performed by Rover van der Noort as part of his Master's thesis for Delft University of Technology under the supervison of Luis Cruz (TU Delft) and Silverio Martínez-Fernández (UPC BarcelonaTech). The related sources are listed here:
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+- [paper][todo]
+- [thesis][todo]
+- [reproducability package][https://zenodo.org/records/11065939]
