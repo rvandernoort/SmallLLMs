@@ -71,7 +71,7 @@ This list curates small Large Language Models (LLMs) that could be deployed to e
 | Primer | [^9^] | 2021 | T-5 | 1.9B | tbd | tbd | tbd | Identification of efficient LM |
 | [Combiner](https://github.com/google-research/google-research/tree/master/combiner) | [^11^] | 2021 | Transformer | - | tbd | tbd | tbd | Sparse attention matrices |
 | [EasyLM](https://github.com/young-geng/EasyLM/tree/main) | | - | LLaMa, GPT-J, RoBERTa | 7-65B | tbd | tbd | tbd | Jax/Flax implementation |
-| [phi3-mini](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) | [^12^] | 2024 | Phi | 3.8B | - | - | - | design for mobile |
+| [phi3-mini](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct) | [12] | 2024 | Phi | 3.8B | - | - | - | design for mobile |
 | **Other models** | - | - | - | - | - | - |
 | [DallE Mini](https://github.com/borisdayma/dalle-mini) | | 2022 | - | - | - | - | - | - |
 | **Edge Inference frameworks** | - | - | - | - | - | - |
@@ -91,4 +91,4 @@ This list curates small Large Language Models (LLMs) that could be deployed to e
 
 ## References
 
-[^12^] Abdin, M., Jacobs, S. A., Awan, A. A., Aneja, J., Awadallah, A., Awadalla, H., ... & Zhou, X. (2024). Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone. arXiv preprint arXiv:2404.14219.
+[12] Abdin, M., Jacobs, S. A., Awan, A. A., Aneja, J., Awadallah, A., Awadalla, H., ... & Zhou, X. (2024). Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone. arXiv preprint arXiv:2404.14219.
