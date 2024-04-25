@@ -43,9 +43,7 @@ layout: home
 
 # Small Large Language Models
 
-This list curates small Large Language Models (LLMs) that could be deployed to edge devices. It investigates the model origin, including number of parameters and optimization techniques and checks the reproducability. Due to the new models coming out everyday with new variations, this list is incomplete, but feel free to add or update any entries on the [github](https://github.com/rvandernoort/SmallLLMs).
-
-<div class="table-wrapper" markdown="block">
+This list curates small Large Language Models (LLMs) that could be deployed to edge devices. It investigates the model origin, including number of parameters and optimization techniques and checks the reproducability. Due to the new models coming out everyday with new variations, this list is incomplete, but feel free to add or update any entries on the [GitHub](https://github.com/rvandernoort/SmallLLMs).
 
 | **Name** | **Cite** | **Release** | **Parent Model** | **Parameters** | **Opt.\*** |  **GPU req\*\*** | **Repr\*\*\*** | **Note** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -85,12 +83,8 @@ This list curates small Large Language Models (LLMs) that could be deployed to e
 | [bitsandbytes](https://github.com/TimDettmers/bitsandbytes) | [^14^15^] | 2022 | - | - | 8 bit quan. | - | - | wrapper for CUDA quantization |
 | [MLC LLM](https://github.com/mlc-ai/mlc-llm) | [^16^] | 2023 | - | - | - | - | - | Machine Learning Compilation for LLMs |
 | [MCUnet](https://github.com/mit-han-lab/mcunet) | [^17^] | 2020 | - | 0.75M-1.73M | - | - | - | |
-</div>
 
 - \* Optimzation technique: Quantization ([AWQ](https://github.com/mit-han-lab/llm-awq), [GPTQ](https://github.com/IST-DASLab/gptq), [GGUF llama.cpp](https://github.com/ggerganov/llama.cpp/) , Knowledge Distilation (KD), Sliding Window Attention (SWA)
 - \*\* GPU Requirements for **inference**, tested on VRAM and compatible types
 - \*\*\* Reproducability, tested on a consumer grade GPU and edge 
 
-## References
-
-todo
