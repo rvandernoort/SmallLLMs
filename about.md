@@ -8,6 +8,6 @@ This collection is made as part of a research into the Sustainability of Edge AI
 
 This research has been performed by Rover van der Noort as part of his Master's thesis for Delft University of Technology under the supervison of Luis Cruz (TU Delft) and Silverio Martínez-Fernández (UPC BarcelonaTech). The related sources are listed here:
 
-- [paper][todo]
-- [thesis][todo]
-- [reproducability package][https://zenodo.org/records/11065939]
+- [paper](todo)
+- [thesis](todo)
+- [reproducability package](https://zenodo.org/records/11065939)
