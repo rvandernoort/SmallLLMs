@@ -43,7 +43,7 @@ layout: home
 
 # Small Large Language Models
 
-This list curates small Large Language Models (LLMs) that could be deployed to edge devices. It investigates the model origin, including number of parameters and optimization techniques and checks the reproducability. Due to the new models coming out everyday with new variations, this list is incomplete, but feel free to add or update any entries on the [GitHub](https://github.com/rvandernoort/SmallLLMs).
+This list curates smaller Large Language Models (SLM) that could be deployed to edge devices. It investigates the model origin, including number of parameters and optimization techniques and checks the reproducability. Due to the new models coming out everyday with new variations, this list is incomplete, but feel free to add or update any entries on the [GitHub](https://github.com/rvandernoort/SmallLLMs).
 
 | **Name** | **Cite** | **Release** | **Parent Model** | **Parameters** | **Opt.\*** |  **GPU req\*\*** | **Repr\*\*\*** | **Note** |
 | --- | --- | --- | --- | --- | --- | --- | --- |
